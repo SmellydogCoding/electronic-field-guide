@@ -1,0 +1,100 @@
+include ./partials/_head.pug
+body
+  .page-wrap
+    include ./partials/_nav.pug
+    div.wrapper
+      p.section-title.bold Disaster Sanitation
+      div.accordion
+        a(href="")
+          p.title State and Local Rules
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td
+                  a.doc(href="/docs/general/rules/64CSR18%20General%20Sanitation%20Rules.pdf") 64CSR18 General Sanitation Rules
+      div.accordion
+        a(href="")
+          p.title Procedure Manual
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/disaster/pro/E-1%20Disaster%20Sanitation.pdf") E-1 Disaster Sanitation
+                td 
+                  a.doc(href="/docs/disaster/hand/E-1-B%20Flood%20Information%20Packet.pdf") E-1-B Flood Information Packet
+              tr
+                td 
+                  a.doc(href="/docs/disaster/pro/E-1-A%20Disaster%20Guidelines%20For%20Sanitarians.pdf") E-1-A Disaster Guidelines for Sanitarians
+      div.accordion
+        a(href="")
+          p.title Forms
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/disaster/forms/Emergency%20Shelter%20Inspection%20Report.pdf") SG-67 Emergency Shelter Inspection Report
+      div.accordion
+        a(href="")
+          p.title Handouts
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/disaster/hand/Wells%20-%20What%20to%20Do%20After%20the%20Flood.pdf") Wells - What to Do After the Flood
+                td 
+                  a.doc(href="/docs/disaster/hand/SG-83%20Retail%20Food%20Safety.pdf") SG-83 Retail Food Safety
+              tr
+                td 
+                  a.doc(href="/docs/disaster/hand/SG-80%20Disinfecting%20Water%20Supply.pdf") SG-80 Disinfecting the Water Supply
+                td 
+                  a.doc(href="/docs/disaster/hand/epa%20flood%20booklet.pdf") Flood Cleanup and the Air in Your Home
+              tr
+                td 
+                  a.doc(href="/docs/disaster/hand/SG-81%20Disinfecting%20Small%20Quantities%20of%20Water.pdf") SG-81 PR Disinfecting Small Quantities of Water
+                td 
+                  a.doc(href="/docs/disaster/hand/Septic%20System%20-%20What%20to%20Do%20After%20the%20Flood.pdf") Septic Systems - What to Do After the Flood
+              tr
+                td 
+                  a.doc(href="/docs/disaster/hand/SG-82%20Residential%20Food%20Safety.pdf") SG-82 Residential Food Safety
+                td 
+                  a.doc(href="/docs/disaster/hand/contamination%20of%20flooded%20areas.pdf") Guidance on Contamination of Flooded Areas
+              tr
+                td 
+                  a.doc(href="/docs/disaster/hand/Keeping%20Food%20Safe%20During%20an%20Emergency.pdf") Keeping Food Safe During an Emergency
+                td 
+                  a.doc(href="/docs/disaster/hand/SG-84%20Home%20Clean-Up.pdf") SG-84 PR1 Home Clean-Up
+              tr
+                td 
+                  a.doc(href="/docs/disaster/hand/Restaurants%20and%20Grocers%20Reopening%20After%20Hurricanes%20and%20Flooding.pdf") Restaurants and Grocers Reopening After Hurricanes and Flooding
+                td 
+                  a.doc(href="/docs/disaster/hand/SG-84F2%20Flood%20Waters%20And%20Tetanus.pdf") SG-84 F2 Flood Waters and Tetanus
+      div.accordion.last
+        a(href="")
+          p.title Reference
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/lodging/ref/General%20Inspection%20Guide.pdf") General Sanitation Inspection Guide
+              tr
+                td 
+                  a.doc(href="/docs/disaster/ref/PPE%20Guide%20For%20Storm%20Flood%20and%20Hurricane%20Cleanup%20Workers.pdf") PPE Guide for Storm, Flood, and Hurricane Cleanup
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug

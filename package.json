@@ -1,0 +1,32 @@
+{
+  "name": "electronic-field-guide",
+  "version": "6.0.2",
+  "description": "West Virginia Electronic Field Guide Desktop Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . electronic-field-guide --platform=win32 --arch=all --asar=true --icon=NSIS/icon.png --ignore=NSIS --ignore=screenshots --overwrite",
+    "installer": "makensis install32.nsi && makensis install64.nsi",
+    "build": "npm run package && npm run installer"
+  },
+  "repository": "https://github.com/SmellydogCoding/electronic-field-guide",
+  "keywords": [
+    "Electron",
+    "MCHD",
+    "Environmental",
+    "Health",
+    "FieldGuide"
+  ],
+  "author": "Smellydog Coding",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "electron-packager": "^8.5.2"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "helmet-csp": "^2.6.0",
+    "pug": "^2.0.0-beta10",
+    "querystring": "^0.2.0"
+  }
+}

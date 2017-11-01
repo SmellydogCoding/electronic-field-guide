@@ -1,0 +1,93 @@
+header
+  ul.page-title
+    li
+      img(src="../img/phlogo.jpg" alt="Public Health Logo")
+    li
+      h2 Electronic Field Guide
+    li
+      img(src="../img/wv.png" alt="West Virginia State Seal")
+  ul.menuBar
+    if page == "home"
+      li.current
+        a(href="/") Home
+    else
+      li
+        a(href="/") Home
+    if page == "Food Establishment"
+      li.current
+        a(href="/food") Food
+    else
+      li
+        a(href="/food") Food
+    if page == "General Sanitation"
+      li.current
+        a(href="/general") General
+    else
+      li
+        a(href="/general") General
+    if page == "Drinking Water"
+      li.current
+        a(href="/water") Water
+    else
+      li
+        a(href="/water") Water
+    if page == "Recreational Water Facility"
+      li.current
+        a(href="/pools") Pools
+    else
+      li
+        a(href="/pools") Pools
+    if page == "Body Art"
+      li.current
+        a(href="/bodyart") Body Art
+    else
+      li
+        a(href="/bodyart") Body Art
+    if page == "Manufactured Home Community"
+      li.current
+        a(href="/mobilehome") Mobile Homes
+    else
+      li
+        a(href="/mobilehome") Mobile Homes
+    if page == "Land Development"
+      li.current
+        a(href="/land") Land Development
+    else
+      li
+        a(href="/land") Land Development
+    if page == "Child Care"
+      li.current
+        a(href="/childcare") Child Care
+    else
+      li
+        a(href="/childcare") Child Care
+    if page == "Indoor Air"
+      li.current
+        a(href="/indoorair") Indoor Air
+    else
+      li
+        a(href="/indoorair") Indoor Air
+    if page == "Rabies and Vector Control"
+      li.current
+        a(href="/rabies") Rabies
+    else
+      li
+        a(href="/rabies") Rabies
+    if page == "Tanning"
+      li.current
+        a(href="/tanning") Tanning
+    else
+      li
+        a(href="/tanning") Tanning
+    if page == "Disaster Sanitation"
+      li.current
+        a(href="/disaster") Disaster
+    else
+      li
+        a(href="/disaster") Disaster
+    if page == "Administration"
+      li.current
+        a(href="/admin") Admin
+    else
+      li
+        a(href="/admin") Admin

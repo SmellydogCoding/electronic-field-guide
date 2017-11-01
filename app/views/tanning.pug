@@ -1,0 +1,67 @@
+include ./partials/_head.pug
+body
+  .page-wrap
+    include ./partials/_nav.pug
+    div.wrapper
+      p.section-title.bold Tanning
+      div.accordion
+        a(href="")
+          p.title State and Local Rules
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/tanning/rules/WV%20Code%20Chapter%2016%20Article%2045.pdf") WV Code Chapter 16 Article 45 - Tanning
+                td 
+                  a.doc(href="#") Your County's Tanning Regulations
+              tr
+                td 
+                  a.doc(href="/docs/tanning/rules/Tanning%20Age%20Ammendment.pdf") HB 2520 - Raises the minimum tanning age to 18
+      div.accordion
+        a(href="")
+          p.title Procedure Manual
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td
+      div.accordion
+        a(href="")
+          p.title Forms
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/tanning/forms/Patron%20Tanning%20Record.pdf") Patron Tanning Record
+      div.accordion
+        a(href="")
+          p.title Handouts
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+      div.accordion.last
+        a(href="")
+          p.title Reference
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug

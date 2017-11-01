@@ -1,0 +1,73 @@
+include ./partials/_head.pug
+body
+  .page-wrap
+    include ./partials/_nav.pug
+    div.wrapper
+      p.section-title.bold Clean Indoor Air Regulation, Indoor Air Quality, and Radon
+      div.accordion
+        a(href="")
+          p.title State and Local Rules
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="#") Your County's Clean Indoor Air Regulation
+                td 
+                  a.doc(href="/docs/IA/rules/37-6-30%20Landlord%20and%20Tenant%20Act.pdf") WV Code 37-6-30 Landlord and Tenant Act
+                td 
+                  a.doc(href="/docs/IA/rules/64CSR78-1%20Radon.pdf") 64 CSR 78 Radon Licensure
+      div.accordion
+        a(href="")
+          p.title Procedure Manual
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/IA/pro/H-7%20Landlord%20and%20Tenant%20Act.pdf") H-7 The Health Department's Role in Landlord and Tenant Disputes
+      div.accordion
+        a(href="")
+          p.title Forms
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+      div.accordion
+        a(href="")
+          p.title Handouts
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/IA/hand/Tenants%20Rights.pdf") Tenant's Rights in West Virginia
+              tr
+                td 
+                  a.doc(href="/docs/IA/hand/Mold%20Moisture%20and%20Your%20Home.pdf") Mold, Moisture, and Your Home
+              tr
+                td 
+                  a.doc(href="/docs/IA/hand/remove%20smoke.pdf") How to Remove Smoke Smells and Stains
+      div.accordion.last
+        a(href="")
+          p.title Reference
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/IA/ref/Mold%20Remediation%20in%20Schools%20and%20Commercial%20Buildings.pdf") Mold Remediation in Schools and Commercial Buildings
+              tr
+                td 
+                  a.doc(href="/docs/IA/ref/NIOSH%20Alert%20-%20Preventing%20Occupational%20Respiratory%20Disease%20from%20Exposures%20Caused%20by%20Dampness%20in%20Office%20Buildings%20Schools%20and%20Other%20Nonindustrial%20Build.pdf") Preventing Occupational Respiratory Disease from Dampness
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug

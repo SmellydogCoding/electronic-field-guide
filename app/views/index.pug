@@ -1,0 +1,70 @@
+include ./partials/_head.pug
+body
+  div.page-wrap
+    include ./partials/_nav.pug
+    div.wrapper.index-page
+      ul.gallery.clearfix
+        li
+          a(href="/food")
+            img(src="img/sushi.jpg" alt="Food")
+            p Food
+        li
+          a(href="/general")
+            img(src="img/park.jpg" alt="General")
+            p General
+        li
+          a(href="/general")
+            img(src="img/hotel.jpg" alt="Lodging")
+            p Lodging
+        li
+          a(href="/general")
+            img(src="img/camp.jpg" alt="Camping")
+            p Campgrounds
+        li
+          a(href="/water")
+            img(src="img/water.jpg" alt="Water")
+            p Water
+        li
+          a(href="/pools")
+            img(src="img/pool.jpg" alt="Pools")
+            p Recreational Water
+        li
+          a(href="/bodyart")
+            img(src="img/tattoo.jpg" alt="Bodyart")
+            p Body Art
+        li
+          a(href="/mobilehome")
+            img(src="img/mhc.jpg" alt="Mobile Home Park")
+            p Mobile Home Parks
+        li
+          a(href="/land")
+            img(src="img/septic.jpg" alt="Land Development")
+            p Land Development
+        li
+          a(href="/childcare")
+            img(src="img/daycare.jpg" alt="Daycare")
+            p Child Care
+        li
+          a(href="/indoorair")
+            img(src="img/ia.jpg" alt="Indoor Air")
+            p Indoor Air
+        li
+          a(href="/rabies")
+            img(src="img/rabies.jpg" alt="Rabies")
+            p Rabies/Vector
+        li
+          a(href="/tanning")
+            img(src="img/tanning.jpg" alt="tanning")
+            p Tanning
+        li
+          a(href="/disaster")
+            img(src="img/disaster.jpg" alt="Disaster")
+            p Disaster Sanitation
+        li
+          a(href="/admin")
+            img(src="img/admin.jpg" alt="Administration")
+            p Administration
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug

@@ -1,0 +1,83 @@
+include ./partials/_head.pug
+body
+  .page-wrap
+    include ./partials/_nav.pug
+    div.wrapper
+      p.section-title.bold Child Care
+      div.accordion
+        a(href="")
+          p.title State and Local Rules
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/daycare/rules/Child%20Care%20Centers.pdf") 64 CSR 21 Child Care Centers
+                td 
+                  a.doc(href="/docs/daycare/rules/78CSR1%20Child%20Care%20Center%20Licensing.pdf") 78 CSR 1 Child Care Center licensing
+              tr
+                td 
+                  a.doc(href="/docs/daycare/rules/78CSR3%20Home%20Day%20Care%20Licensing.pdf") 78 CSR 3 Home Day Care Licensing
+                td 
+                  a.doc(href="/docs/daycare/rules/78CSR1%20Appendix%20F%20-%20Adult%20to%20Child%20Ratios.pdf") 78 CSR 1 Appendix F Adult to Child Ratios
+      div.accordion
+        a(href="")
+          p.title Procedure Manual
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/lodging/pro/H-6%20Lavatory%20-%20Drinking%20Water%20Fountain%20Combinations%20are%20Not%20Approved.pdf") H-6 Lavatory - Drinking Fountain Combinations Not Approved
+                td 
+                  a.doc(href="/docs/daycare/pro/H-23%20Diaper%20Changing%20Procedure%20In%20Child%20Care%20Centers.pdf") H-23 Diaper Changing Procedure in Child Care Center
+              tr
+                td 
+                  a.doc(href="/docs/daycare/pro/H-21%20Syrup%20Of%20Ipecac%20In%20Child%20Care%20Centers.pdf") H-21 Syrup of Ipecac in Child Care Centers
+                td 
+                  a.doc(href="/docs/daycare/pro/H-24%20Hot%20Holding%20in%20Family%20Day%20Care.pdf") H-24 Hot Holding in Family Day Care
+              tr
+                td 
+                  a.doc(href="/docs/daycare/pro/H-22%20Hand%20Sink%20Use%20in%20Child%20Care%20Centers.pdf") H-22 Hand Sink Use in Child Care Centers
+      div.accordion
+        a(href="")
+          p.title Forms
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/daycare/forms/Day%20Care%20Inspection.pdf") SG-50 Child Care Inspection
+                td 
+                  a.doc(href="/docs/daycare/forms/SG-99%20Child%20Care%20Plan%20Review.pdf") SG-99 Child Care Plan Review Application
+      div.accordion
+        a(href="")
+          p.title Handouts
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+      div.accordion.last
+        a(href="")
+          p.title Reference
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/daycare/ref/Child%20Care%20Inspection%20Guide.pdf") Child Care Inspection Guide
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug

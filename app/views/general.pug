@@ -1,0 +1,88 @@
+include ./partials/_head.pug
+body
+  .page-wrap
+    include ./partials/_nav.pug
+    div.wrapper
+      p.section-title.bold Lodging, Campgrounds, and General Sanitation
+      div.accordion
+        a(href="")
+          p.title State and Local Rules
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/general/rules/64CSR18%20General%20Sanitation%20Rules.pdf") 64CSR18 General Sanitation Rules
+      div.accordion
+        a(href="")
+          p.title Procedure Manual
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/general/pro/H-6%20Lavatory%20-%20Drinking%20Water%20Fountain%20Combinations%20are%20Not%20Approved.pdf") H-6 Lavatory - Drinking Water Fountain Combinations
+                td 
+                  a.doc(href="/docs/school/pro/H-10%20School%20Closings%20Due%20to%20Water%20Outages.pdf") H-10 School Closings Due to Water Outages
+              tr
+                td(colspan="2") 
+                  a.doc(href="/docs/general/pro/H-25%20Guidelines%20for%20Permitting%20and%20Inspecting%20Accommodations%20Made%20Through%20Lodging%20Reservation%20Web%20Sites.pdf") H-25 Guidelines for Permitting and Inspecting Accommodations Made Through Lodging Reservation Web Sites
+      div.accordion
+        a(href="")
+          p.title Forms
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/general/forms/General%20Sanitation%20Inspection.pdf") General Sanitation Inspection
+                td 
+                  a.doc(href="/docs/general/forms/Non-profit%20Exemption%20Application.pdf") 501(C)3 Exemption Application
+              tr
+                td 
+                  a.doc(href="/docs/general/forms/Emergency%20Shelter%20Inspection%20Report.pdf") Emergency Shelter Inspection Report
+                td 
+                  a.doc(href="/docs/general/forms/SG-49%20General%20Application%20For%20Permit.pdf") SG-49 General Application for Permit
+      div.accordion.last
+        a(href="")
+          p.title Reference
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/general/ref/Bed%20Bug%20Life%20Cycle.pdf") Bud Bug Life Cycle
+                td 
+                  a.doc(href="/docs/general/ref/General%20Inspection%20Guide.pdf") General Inspection Guide
+              tr
+                td 
+                  a.doc(href="/docs/general/ref/bed%20bug%20photo.pdf") Bed Bug Photo
+                td 
+                  a.doc(href="/docs/general/ref/CyanoHAB%20FAQ.pdf") Blue-Green Algae - General FAQ
+              tr
+                td 
+                  a.doc(href="/docs/general/ref/Bed%20bugs%20and%20self%20protection.pdf") Bed Bugs and Self Protction
+                td 
+                  a.doc(href="/docs/general/ref/Physician%20reference%20HAB.pdf") Blue-Green Algae - Physicians Reference
+              tr
+                td 
+                  a.doc(href="/docs/general/ref/Pests%20Associated%20With%20Lodging.pdf") Pets Associated with Lodging
+                td 
+                  a.doc(href="/docs/general/ref/Veterinarian%20reference%20HAB.pdf") Blue-Green Algae - Veterinarian Reference
+              tr
+                td 
+                  a.doc(href="/docs/general/ref/Bed_bugs_schools_WV.pdf") Bed Bug Information for Schools
+                td 
+                  a.doc(href="/docs/general/ref/Portable%20Toilets%20for%20Events.pdf") Portable Toilets Needed for Events
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug

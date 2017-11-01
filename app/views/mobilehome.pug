@@ -1,0 +1,71 @@
+include ./partials/_head.pug
+body
+  .page-wrap
+    include ./partials/_nav.pug
+    div.wrapper
+      p.section-title.bold Manufactured Home Communities
+      div.accordion
+        a(href="")
+          p.title State and Local Rules
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/MHP/rules/64CSR40%20Mobile%20Home%20Parks.pdf") 64 CSR 40 Manufactured Home Communities
+                td 
+                  a.doc(href="/docs/MHP/rules/64CSR41%20Mobile%20Home%20Park%20Design.pdf") 64 CSR 41 Manufactured Home Community Design Standards
+              tr
+                td 
+                  a.doc(href="/docs/MHP/rules/WV%20Code%2037-15.pdf") WV Code 37-15 Real Property - Manufactured Homes
+      div.accordion
+        a(href="")
+          p.title Procedure Manual
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/MHP/pro/H-9%20Construction%20Permit%20for%20Mobile%20Home%20Parks.pdf") H-9 Construction Permits
+                td 
+                  a.doc(href="/docs/MHP/pro/H-15%20Mobile%20Home%20Park%20Spacing%20Requirements.pdf") H-15 Spacing Requirements
+      div.accordion
+        a(href="")
+          p.title Forms
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td(colspan="2") 
+                  a.doc(href="/docs/MHP/forms/Mobile%20Home%20Park%20Inspection.pdf") Manufactured Home Community Inspection
+              tr
+                td 
+                  a.doc(href="/docs/MHP/forms/eg-1.pdf") Plan Review Application
+                td 
+                  a.doc(href="/docs/MHP/forms/eg-2.pdf") Permit Application
+              tr
+                td 
+                  a.doc(href="/docs/MHP/forms/eg-4.pdf") Sewage System Information
+                td 
+                  a.doc(href="/docs/MHP/forms/eg-5.pdf") Water System Information
+      div.accordion.last
+        a(href="")
+          p.title Reference
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/MHP/ref/Mobile%20Home%20Inspection%20Guide.pdf") Manufactured Home Community Inspection Guide
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug

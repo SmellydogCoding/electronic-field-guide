@@ -1,0 +1,75 @@
+include ./partials/_head.pug
+body
+  .page-wrap
+    include ./partials/_nav.pug
+    div.wrapper
+      p.section-title.bold Administration
+      div.accordion
+        a(href="")
+          p.title State Codes
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/admin/rules/60%20CSR%202%20Rules%20on%20Freedom%20of%20Information%20Requests.pdf") 60 CSR 2 Rules on Freedom of Information Requests
+                td 
+                  a.doc(href="/docs/admin/rules/64%20CSR%201%20Rules%20of%20Procedure%20for%20Contested%20CAse%20Hearing%20and%20Declaratory%20Rulings.pdf") 64 CSR 1 Rules of Procedure for Contested Case Hearing
+              tr
+                td 
+                  a.doc(href="/docs/admin/rules/61%20CSR%2021%20Freedom%20of%20Information%20Request.pdf") 61 CSR 21 Freedom of Information Request
+                td 
+                  a.doc(href="/docs/admin/rules/WEST%20VIRGINIA%20CODE%2016-1-7.pdf") West Virginia Code 16-1-7 Duties and Powers of the Commissioner
+      div.accordion
+        a(href="")
+          p.title Procedure Manual
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/admin/pro/A-4%20Function%20Summary%20-%20Local%20District%20and%20State.pdf") A-4 Function Summary - Local, District and State
+                td 
+                  a.doc(href="/docs/admin/pro/A-26%20Anonymous%20Nuisance%20Complaints.pdf") A-26 Anonymous Nuisance Complaints
+              tr
+                td 
+                  a.doc(href="/docs/admin/pro/A-18%20Guidelines%20for%20Conducting%20Inspections%20and%20Investigations.pdf") A-18 Guidelines for Conducting Inspections and Investigations
+                td 
+                  a.doc(href="/docs/admin/pro/DC-5%20Investigation%20of%20Public%20Health%20Related%20Complaints.pdf") DC-5 Investigation of Public Health Related Complaints
+              tr
+                td 
+                  a.doc(href="/docs/admin/pro/A-20%20FOIA%20and%20Nuisance%20Complaint%20Investigation.pdf") A-20 FOIA and Nuisance Complaint Investigation
+                td 
+                  a.doc(href="/docs/admin/pro/SW-1%20Solid%20Waste%20Responsibility.pdf") SW-1 Solid Waste Responsibility
+              tr
+                td 
+                  a.doc(href="/docs/admin/pro/A-24%20Release%20of%20Complainants%20Name.pdf") A-24 Release of Complainants Name
+      div.accordion.last
+        a(href="")
+          p.title Forms
+          p.plus-minus
+            span +
+        div.details(data-state="closed")
+          table
+            tbody
+              tr
+                td 
+                  a.doc(href="/docs/admin/forms/Application%20for%20RS%20Hours%20for%20Course%20Completion%20for%20an%20Individual.pdf") Application for RS Hours for Course Completion
+                td 
+                  a.doc(href="/docs/admin/forms/Official%20Visit%20Report.pdf") Official Visit Report
+              tr
+                td 
+                  a.doc(href="/docs/admin/forms/Attendence%20Record%20for%20RS%20Hours.pdf") Attendance Record for RS Hours
+                td 
+                  a.doc(href="/docs/admin/forms/SG-51%20Nuisance%20Investigation%20Report.pdf") SG-51 Nuisance Investigation Report
+              tr
+                td 
+                  a.doc(href="/docs/admin/forms/Request%20for%20Approval%20of%20a%20Course%20for%20RS%20Hours.pdf") Request for Approval of a Course for RS Hours
+    include ./partials/_footer.pug
+  div.about.hidden
+    include ./partials/_about.pug
+  include ./partials/_scripts.pug
