@@ -13,6 +13,20 @@ This application was made with [NodeJS](https://nodejs.org/en/) and [Electron](h
 [![index](screenshots/fooddetail-thumb.jpg)](screenshots/fooddetail.jpg) 
 [![index](screenshots/foodpopup-thumb.jpg)](screenshots/foodpopup.jpg)  
 
+
+## Download
+
+[electronic-field-guide-6.0.2.1 - 32 bit](https://www.dropbox.com/s/1qw1pupkmpko8q9/electronic-field-guide-6.0.2.1-ia32.exe?raw=1)  
+[electronic-field-guide-6.0.2.1 - 64 bit](https://www.dropbox.com/s/6oaq8xizdlmx6z6/electronic-field-guide-6.0.2.1-x64.exe?raw=1)
+
+*Administrator privileges are not required to install*
+
+## PDF Forms
+
+The PDF viewer in this application does not support the filling of forms.  Click the download button of the pdf viewer to download a copy of the form to your computer.  Then you can open it in your program of choice (such as Acrobat) to fill out the form.
+
+[![index](screenshots/download.png)]
+
 ## License
 
 Copyright 2017 [Daniel McNeil - Smellydog Coding](mailto:smellydogcoding@gmail.com) - [www.smellydogcoding.com](www.smellydogcoding.com)  
@@ -65,4 +79,4 @@ Run `npm start` to launch the application.
 `npm run build` will run `npm run package` and `npm run installer` serially.
 
 ### bugs and feature reqests
-For all bugs, including incorrect, mistranslated, or out of date documents, as well as to request new features, please use **this repo's issue tab** to create a new issue.
+For all bugs, including incorrect, mistranslated, or out of date documents, as well as to request new features: [Click Here](https://github.com/SmellydogCoding/electronic-field-guide/issues).
