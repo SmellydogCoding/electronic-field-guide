@@ -29,7 +29,7 @@ The PDF viewer in this application does not support the filling of forms.  Click
 
 ## License
 
-Copyright 2017 [Daniel McNeil - Smellydog Coding](mailto:smellydogcoding@gmail.com) - [www.smellydogcoding.com](www.smellydogcoding.com)  
+Copyright 2017 [Daniel McNeil - Smellydog Coding](mailto:smellydogcoding@gmail.com) - [www.smellydogcoding.com](http://www.smellydogcoding.com)  
 
 This software is a Free and Open Source (FOSS) project under the terms of the MIT Lisence.
 
@@ -69,7 +69,7 @@ By using this software you agree to the following:
 ### Prerequisites
 
 **NSIS**  
-NSIS must be installed and the path to *makensis* must be added to your *path* to use the `npm run installer` and `npm run build commands`
+NSIS must be installed and the path to *makensis* must be added to your *path* to use the `npm run installer` and `npm run build` commands
 
 ### Download
 Clone the repository and run `npm install`.  
