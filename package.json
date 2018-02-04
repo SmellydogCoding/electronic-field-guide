@@ -20,13 +20,13 @@
   "author": "Smellydog Coding",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^1.4.1",
+    "electron": "^1.8.1",
     "electron-packager": "^8.5.2"
   },
   "dependencies": {
-    "express": "^4.14.1",
-    "helmet-csp": "^2.6.0",
-    "pug": "^2.0.0-beta10",
+    "express": "^4.16.2",
+    "helmet-csp": "^2.7.0",
+    "pug": "^2.0.0-rc.4",
     "querystring": "^0.2.0"
   }
 }
