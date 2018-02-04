@@ -11,7 +11,7 @@
 
   ;Name and file
   Name "West Virginia Electronic Field Guide"
-  OutFile "electronic-field-guide-6.0.2.1-x64.exe"
+  OutFile "electronic-field-guide-6.0.3-x64.exe"
 
   ;Default installation folder
   InstallDir "c:\electronic-field-guide"
@@ -115,8 +115,8 @@ Section "Create Desktop Shortcut" desk
   VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "West Virginia Electronic Field Guide"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "Type" "Application - Installer"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "Smellydog Coding"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "6.0.2.1"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright 2017 Smellydog Coding."
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductVersion" "6.0.3"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright 2018 Smellydog Coding."
   VIAddVersionKey /LANG=${LANG_ENGLISH} "FileDescription" "Installer for the West Virginia Electronic Field Guide"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "FileVersion" "4.5"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "Language" "English"

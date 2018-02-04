@@ -1,6 +1,6 @@
 # West Virginia Electronic Field Guide
 
-## Version 6.0.2.1
+## Version 6.0.3
 
 The West Virginia Electronic Field Guide is a Windows desktop application that provides Environmental Health field inspectors with an easy to use user interface to access commonly used rules, forms, handouts, and reference material.  
 
@@ -16,8 +16,8 @@ This application was made with [NodeJS](https://nodejs.org/en/) and [Electron](h
 
 ## Download
 
-[electronic-field-guide-6.0.2.1 - 32 bit](https://www.dropbox.com/s/1qw1pupkmpko8q9/electronic-field-guide-6.0.2.1-ia32.exe?raw=1)  
-[electronic-field-guide-6.0.2.1 - 64 bit](https://www.dropbox.com/s/6oaq8xizdlmx6z6/electronic-field-guide-6.0.2.1-x64.exe?raw=1)
+[electronic-field-guide-6.0.3 - 32 bit](https://github.com/SmellydogCoding/electronic-field-guide/releases/download/6.0.3/electronic-field-guide-6.0.3-ia32.exe)  
+[electronic-field-guide-6.0.3 - 64 bit](https://github.com/SmellydogCoding/electronic-field-guide/releases/download/6.0.3/electronic-field-guide-6.0.3-x64.exe)
 
 *Administrator privileges are not required to install*
 

@@ -1,4 +1,4 @@
-Copyright 2017 Smellydog Coding  https://www.smellydogcoding.com
+Copyright 2018 Smellydog Coding  https://www.smellydogcoding.com
 
 This software is a Free and Open Source (FOSS) project under the terms of the MIT Lisence.
 
